@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93508921794A5AE00B2899F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93508911794A5AE00B2899F /* CoreLocation.framework */; };
 		B98B18751794A46800DA7CA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B18741794A46800DA7CA3 /* UIKit.framework */; };
 		B98B18771794A46800DA7CA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B18761794A46800DA7CA3 /* Foundation.framework */; };
 		B98B18791794A46800DA7CA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B98B18781794A46800DA7CA3 /* CoreGraphics.framework */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B93508911794A5AE00B2899F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		B98B18711794A46800DA7CA3 /* GeocacherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeocacherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98B18741794A46800DA7CA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B98B18761794A46800DA7CA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93508921794A5AE00B2899F /* CoreLocation.framework in Frameworks */,
 				B98B18751794A46800DA7CA3 /* UIKit.framework in Frameworks */,
 				B98B18771794A46800DA7CA3 /* Foundation.framework in Frameworks */,
 				B98B18791794A46800DA7CA3 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +78,7 @@
 		B98B18731794A46800DA7CA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B93508911794A5AE00B2899F /* CoreLocation.framework */,
 				B98B18741794A46800DA7CA3 /* UIKit.framework */,
 				B98B18761794A46800DA7CA3 /* Foundation.framework */,
 				B98B18781794A46800DA7CA3 /* CoreGraphics.framework */,
@@ -313,6 +317,7 @@
 				B98B18991794A46800DA7CA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
